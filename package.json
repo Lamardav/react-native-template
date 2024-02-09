@@ -1,0 +1,38 @@
+{
+  "name": "react-native-template-strong",
+  "version": "1.3.3",
+  "description": "React Native Strong Template made with react-native-navigation, TypeScript and Redux",
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svbutko/react-native-template-strong.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-navigation",
+    "typescript",
+    "redux",
+    "uikit",
+    "strong",
+    "template",
+    "boilerplate",
+    "starter",
+    "redux-toolkit",
+    "localization"
+  ],
+  "author": "Sergei Butko (https://twitter.com/@svbutko)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svbutko/react-native-template-strong/issues"
+  },
+  "homepage": "https://github.com/svbutko/react-native-template-strong#readme",
+  "contributors": [
+    {
+      "name": "Sergei Butko",
+      "url": "https://twitter.com/@svbutko"
+    }
+  ]
+}
