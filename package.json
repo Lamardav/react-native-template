@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/svbutko/react-native-template-strong.git"
+    "url": "git+http://git.dextechnology.com/apptemplate/react-native.git"
   },
   "keywords": [
     "react-native",
@@ -24,11 +24,7 @@
     "localization"
   ],
   "author": "Sergei Butko (https://twitter.com/@svbutko)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/svbutko/react-native-template-strong/issues"
-  },
-  "homepage": "https://github.com/svbutko/react-native-template-strong#readme",
+  "homepage": "http://git.dextechnology.com/apptemplate/react-native.git#readme",
   "contributors": [
     {
       "name": "Sergei Butko",
