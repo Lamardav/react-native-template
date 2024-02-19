@@ -120,7 +120,8 @@
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-native": "4.0.0",
-    "husky": "8.0.3",
+    "husky": "9.0.11",
+    "pretty-quick": "4.0.0",
     "jest": "29.4.1",
     "lint-staged": "13.1.1",
     "patch-package": "6.5.1",
@@ -136,14 +137,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "npx lint-staged",
       "post-merge": "npm run ts && npm run eslint:run"
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,js}": [
-      "npm run ts",
-      "npm run eslint:run"
+    "*.{ts,tsx}": [
+      "bash -c tsc",
+      "npx pretty-quick --staged"
     ]
   },
   "engines": {
