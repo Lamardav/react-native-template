@@ -1,0 +1,24 @@
+{
+  "name": "react-native-template-dex",
+  "version": "1.0.1",
+  "description": "React Native Strong Template made with react-native-navigation, TypeScript and Redux",
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "keywords": [
+    "react-native",
+    "react-native-navigation",
+    "typescript",
+    "redux",
+    "uikit",
+    "strong",
+    "template",
+    "boilerplate",
+    "starter",
+    "redux-toolkit",
+    "localization"
+  ],
+  "author": "Shpakov Dmitry",
+  "homepage": "http://git.dextechnology.com/apptemplate/react-native.git#readme"
+}
