@@ -1,6 +1,0 @@
-{
-  "devOptions": {
-    "purgeStateOnStart": false,
-    "disableReduxLogger": false
-  }
-}

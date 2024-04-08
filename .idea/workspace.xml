@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4cd6b32-98f9-496a-ab7d-763901a635e7" name="Changes" comment="first new arch commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/.bundle/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/.prettierrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/__tests__/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/debug.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/debug/java/com/rntemplate/ReactNativeFlipper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/java/com/rntemplate/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/java/com/rntemplate/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/drawable/rn_edit_text_material.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/app/src/release/java/com/rntemplate/ReactNativeFlipper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/.xcode.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate.xcodeproj/xcshareddata/xcschemes/RNTemplate.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/AppDelegate.mm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplate/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplateTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ios/RNTemplateTests/RNTemplateTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/metro.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/patches/react-native+0.72.12.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/fonts/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/fonts/SF PRO DISPLAY BOLD.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/fonts/SF PRO DISPLAY LIGHT ITALIC.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/fonts/SF PRO DISPLAY MEDIUM.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/fonts/SF PRO DISPLAY SEMIBOLD ITALIC.OTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/CalendarBlank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/CalendarBlank@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/CalendarBlank@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/Eye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/Eye@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/Eye@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/EyeClosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/EyeClosed@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/EyeClosed@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_down@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_down@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_left@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_left@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_right@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/arrow_right@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/avatar@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/avatar@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/camera@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/camera@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/check@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/check@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/close_modal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/close_modal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/close_modal@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/drop_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/drop_down@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/drop_down@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_1@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_2@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_3@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_3@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_4@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/onboarding/onboarding_background_4@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/bag@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/bag_@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/date@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/date@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/home@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/home@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/news@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarDark/news@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/bag@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/bag@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/date@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/date@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/home@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/home@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/news@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarInactive/news@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/bag@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/bag@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/date@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/date@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/home@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/home@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/news@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/images/tabbarLight/news@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/settings/localSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/settings/mobileSettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/settings/mobileSettings.Production.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/settings/mobileSettings.Staging.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/settings/mobileSettings.Test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/settings/mobileSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/resources/symbols/SFSymbols.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/ImageResources.g.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/DropDownIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/EmptyView.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/ErrorComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/FlatListWrapper.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/InputDateIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/LoadingComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/NavigationTopBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/PasswordIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/PrimaryButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/RadioButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/RadioIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/SectionListWrapper.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/Separator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/SpaceSeparator.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/ToastOverlay.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/TouchablePlatform.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/TryAgain.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/Wrapper.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/components/WrapperEmptyComponent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/calculatePage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/defaultKeyIdExtractor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/dialogsHelpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/netInfoHelpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/orientationHelpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/regexHelpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/helpers/stringsHelpers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useAppState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useBackHandler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useDebounce.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useEventRegister.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useFlatListActions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useMount.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/usePrevious.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useTabHook.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/hooks/useWhyDidYouUpdate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/localization/dateFormatter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/localization/intlFormatter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/localization/localization.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/localization/localizedTextHelper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/localization/translations/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/localization/translations/ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/urls/baseUrlOpener.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/urls/emailUrl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/urls/httpUrl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/urls/mapUrl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/urls/phoneUrl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/utils/listHandlers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/utils/newState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/utils/serializeQueryParams.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/authValidations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/commonValidations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/errorValidations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/hooks/useDatesError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/hooks/useInputError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/profileValidations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/common/validations/validationConstants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/AppIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/AppScreenContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/FilterItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/ModalizeContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/PageSection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/TabBars.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/components/Tabs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/store/rootReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/store/store.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/store/system/systemSlice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/store/system/systemState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/colors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/commonConsts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/commonSizes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/commonStyles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/fonts.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/hooks/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/hooks/useThemeColors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/core/theme/hooks/useThemedStyles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/helpers/abortHub.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/helpers/guid.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/helpers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/helpers/mocksHelper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/logger/ILogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/logger/LogLevel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/common/logger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/ErrorSignType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/ErrorType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IDataControl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IErrorData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IIdName.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IItemIdName.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IListControls.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IPageFilter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IReduxParams.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IResponseWrapper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/IValidationError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/LanguageEnum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/LocalizedTextDto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/ServerErrorTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/common/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/dto/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/consoleLogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/HttpLogWriter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/ILogWriter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/LogEntry.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/LogEntryType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/Logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/guid.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/dexLogger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/multiLogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/seqLogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/types/logger/ILogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/types/logger/LogLevel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/logger/types/logger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/modules/BaseConfigurableModule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/modules/BaseLoggingModule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/modules/BaseRequest.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/modules/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/settings/appSettings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/settings/appSettingsProvider.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/settings/getSettings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/components/Label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/components/styledLabels.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/types/ITypographyModuleConfiguration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/types/LabelConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/types/LabelSizes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/types/LabelTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/types/LabelWeights.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/infrastructure/typography/typography.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/main/Main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/menu/Menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/onboarding/Onboarding.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/onboarding/components/OnboardingPagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/search/Search.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/settings/Settings.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/splash/Splash.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/modules/splash/useHideSplash.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/components.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/components/TopBarBackButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/components/TopBarTitle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/componentsRegistration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/defaultOptions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/defaults.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/helpers/NavigationHOC.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/helpers/getStackOptions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/pages.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/roots.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/navigation/tabs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/getAnimationOptions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/getStackOptions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/navigationActions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/navigationService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/showDatePicker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/showOnboarding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/showStorybook.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/services/navigationService/showToast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/startup/configureLogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/startup/configureTypography.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/startup/createLogger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/types/i18next.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/types/react-i18next.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/types/react-native-config.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/types/react-native-config.types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/types/react.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1712595567" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/template" />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="old_template" />
+                    <option name="lastUsedInstant" value="1712595662" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1712594617" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2eoMnvxHUZ90kUY6XEBxayGOx8O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;old__template&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dmitriishpakov/WebstormProjects/react-native-template&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/dmitriishpakov/WebstormProjects/react-native-template/MyApp/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template/ios/HelloWorld" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start-reset-cache">
+    <configuration name="pod-install-new-arch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/template/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="pod-install-new-arch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start-reset-cache" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/template/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-reset-cache" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start-reset-cache" />
+        <item itemvalue="npm.pod-install-new-arch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4cd6b32-98f9-496a-ab7d-763901a635e7" name="Changes" comment="" />
+      <created>1712566647214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712566647214</updated>
+      <workItem from="1712566648331" duration="700000" />
+      <workItem from="1712567600869" duration="2826000" />
+      <workItem from="1712570705882" duration="1950000" />
+      <workItem from="1712573432851" duration="188000" />
+      <workItem from="1712573626462" duration="3553000" />
+      <workItem from="1712577279592" duration="6427000" />
+      <workItem from="1712584818831" duration="898000" />
+      <workItem from="1712593309160" duration="2317000" />
+      <workItem from="1712595648004" duration="26000" />
+      <workItem from="1712595781594" duration="126000" />
+      <workItem from="1712595914156" duration="53000" />
+    </task>
+    <task id="LOCAL-00001" summary="first new arch commit">
+      <option name="closed" value="true" />
+      <created>1712594747789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712594747789</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first new arch commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first new arch commit" />
+  </component>
+</project>

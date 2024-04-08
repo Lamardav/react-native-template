@@ -1,11 +1,15 @@
 {
-  "name": "react-native-template-dex",
-  "version": "1.0.1",
+  "name": "react-native-template-strong",
+  "version": "1.3.3",
   "description": "React Native Strong Template made with react-native-navigation, TypeScript and Redux",
   "files": [
     "template",
     "template.config.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.dextechnology.com/apptemplate/react-native.git"
+  },
   "keywords": [
     "react-native",
     "react-native-navigation",
@@ -19,6 +23,12 @@
     "redux-toolkit",
     "localization"
   ],
-  "author": "Shpakov Dmitry",
-  "homepage": "http://git.dextechnology.com/apptemplate/react-native.git#readme"
+  "author": "Sergei Butko (https://twitter.com/@svbutko)",
+  "homepage": "http://git.dextechnology.com/apptemplate/react-native.git#readme",
+  "contributors": [
+    {
+      "name": "Sergei Butko",
+      "url": "https://twitter.com/@svbutko"
+    }
+  ]
 }
