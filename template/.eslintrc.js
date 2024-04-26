@@ -10,7 +10,7 @@ module.exports = {
     createDefaultProgram: true,
   },
   ignorePatterns: [],
-  extends: ["react-strong"],
+  extends: "@react-native",
   rules: {
     "no-restricted-imports": [
       "error",

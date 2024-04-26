@@ -7,46 +7,44 @@ import {CommonStyles} from "~/core/theme/commonStyles";
 import {Brand, Regular} from "~/infrastructure";
 import {useThemedStyles} from "~/core/theme/hooks";
 
-export const CupTabBar: typeof CustomTabBar = (tabBarProps) => CustomTabBar({
-  ...tabBarProps,
-  renderLabel: (props) => {
-    const Component = props.focused ? Brand.H4 : Brand.H5;
+export const CupTabBar: typeof CustomTabBar = (tabBarProps) =>
+  CustomTabBar({
+    ...tabBarProps,
+    renderLabel: (props) => {
+      const Component = props.focused ? Brand.H4 : Brand.H5;
 
-    return (
-      <Component
-        style={props.focused ? styles.label2 : styles.label2inactive}
-        text={props.route.title}
-        color={props.color}
-        numberOfLines={1}
-      />
-    );
-  },
-  style: styles.transparentTabBar,
-});
+      return (
+        <Component
+          style={props.focused ? styles.label2 : styles.label2inactive}
+          text={props.route.title}
+          color={props.color}
+          numberOfLines={1}
+        />
+      );
+    },
+    style: styles.transparentTabBar,
+  });
 
-export const ShadowedTabBar: typeof CustomTabBar = (tabBarProps) => CustomTabBar({
-  ...tabBarProps,
-  style: {
-    ...CommonStyles.shadowTopBar,
-  },
-});
+export const ShadowedTabBar: typeof CustomTabBar = (tabBarProps) =>
+  CustomTabBar({
+    ...tabBarProps,
+    style: {
+      ...CommonStyles.shadowTopBar,
+    },
+  });
 
-export const CupTabBarScrollable: typeof CustomTabBar = (
-  {renderTabBarItem = CustomTabBarItem, ...tabBarProps}) => CupTabBar({
-  ...tabBarProps,
-  renderTabBarItem: (props) =>
-    renderTabBarItem({...props, tabContainerStyle: [props.tabContainerStyle, {flexGrow: 1, flex: 0}]}),
-});
+export const CupTabBarScrollable: typeof CustomTabBar = ({renderTabBarItem = CustomTabBarItem, ...tabBarProps}) =>
+  CupTabBar({
+    ...tabBarProps,
+    renderTabBarItem: (props) => renderTabBarItem({...props, tabContainerStyle: [props.tabContainerStyle, {flexGrow: 1, flex: 0}]}),
+  });
 
-export const ChipsTabBar: typeof CustomTabBar = (
-  {renderTabBarItem = CustomTabBarItem, ...tabBarProps},
-) => {
+export const ChipsTabBar: typeof CustomTabBar = ({renderTabBarItem = CustomTabBarItem, ...tabBarProps}) => {
   const sliderStyles = useThemedStyles(sliderStylesGenerator);
 
   return CustomTabBar({
     ...tabBarProps,
-    renderTabBarItem: (props) =>
-      renderTabBarItem({...props, tabContainerStyle: [props.tabContainerStyle, {flexGrow: 0, flex: 0}]}),
+    renderTabBarItem: (props) => renderTabBarItem({...props, tabContainerStyle: [props.tabContainerStyle, {flexGrow: 0, flex: 0}]}),
     renderLabel: (props) => {
       return (
         <Regular.H3
@@ -76,10 +74,18 @@ export const SliderTabBar: typeof CustomTabBar = (tabBarProps) => {
         />
       );
     },
-    renderIndicator: (props) => <Animated.View style={[props.style, sliderStyles.slider, {
-      width: (windowWidth - 34) / props.navigationState.routes.length,
-      transform: [{translateX: Animated.multiply(props.position, (windowWidth - 34) / props.navigationState.routes.length)}],
-    }]} />,
+    renderIndicator: (props) => (
+      <Animated.View
+        style={[
+          props.style,
+          sliderStyles.slider,
+          {
+            width: (windowWidth - 34) / props.navigationState.routes.length,
+            transform: [{translateX: Animated.multiply(props.position, (windowWidth - 34) / props.navigationState.routes.length)}],
+          },
+        ]}
+      />
+    ),
     indicatorContainerStyle: {},
     activeColor: sliderStyles.colors.main,
     style: sliderStyles.sliderTabBar,
@@ -88,44 +94,45 @@ export const SliderTabBar: typeof CustomTabBar = (tabBarProps) => {
 
 export const SliderHeight = 32;
 
-const sliderStylesGenerator = (colors: ThemeColors) => StyleSheet.create({
-  slider: {
-    left: 0,
-    top: 0,
-    bottom: 0,
-    // right: "50%",
-    height: null as unknown as undefined,
-    position: "absolute",
-    zIndex: 2,
-  },
-  sliderTabContainer: {
-    flexBasis: 100,
-    height: SliderHeight,
-    zIndex: 1,
-  },
-  focusedSliderLabel: {
-    color: Colors.white,
-  },
-  sliderLabel: {
-    color: colors.text,
-  },
-  sliderTabBar: {
-    width: windowWidth - 32,
-    alignSelf: "center",
-    backgroundColor: colors.element,
-    borderWidth: 1,
-    borderColor: colors.winline2,
-    elevation: 0,
-  },
-  focusedChipsLabel: {
-    color: Colors.white,
-    backgroundColor: Colors.primary,
-  },
-  chipsLabel: {
-    color: colors.text,
-    backgroundColor: colors.element,
-  },
-});
+const sliderStylesGenerator = (colors: ThemeColors) =>
+  StyleSheet.create({
+    slider: {
+      left: 0,
+      top: 0,
+      bottom: 0,
+      // right: "50%",
+      height: null as unknown as undefined,
+      position: "absolute",
+      zIndex: 2,
+    },
+    sliderTabContainer: {
+      flexBasis: 100,
+      height: SliderHeight,
+      zIndex: 1,
+    },
+    focusedSliderLabel: {
+      color: Colors.white,
+    },
+    sliderLabel: {
+      color: colors.text,
+    },
+    sliderTabBar: {
+      width: windowWidth - 32,
+      alignSelf: "center",
+      backgroundColor: colors.element,
+      borderWidth: 1,
+      borderColor: colors.winline2,
+      elevation: 0,
+    },
+    focusedChipsLabel: {
+      color: Colors.white,
+      backgroundColor: Colors.primary,
+    },
+    chipsLabel: {
+      color: colors.text,
+      backgroundColor: colors.element,
+    },
+  });
 
 const styles = StyleSheet.create({
   label2: {

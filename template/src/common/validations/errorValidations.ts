@@ -1,4 +1,4 @@
-import {ErrorRepresentationType, IErrorResult} from "../../types";
+import {ErrorRepresentationType, IErrorResult} from "~/types";
 import {i18next} from "~/common/localization/localization";
 import {showToast} from "~/services/navigationService/showToast";
 import {unwrapResult} from "@reduxjs/toolkit";

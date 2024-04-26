@@ -8,7 +8,7 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
--keep class com.helloworld.BuildConfig { *; }
+-keep class com.rntemplate.BuildConfig { *; }
 -keep class com.facebook.hermes.unicode.** { *; }
 -keep class com.facebook.react.turbomodule.** { *; }
 -keep class com.facebook.jni.** { *; }

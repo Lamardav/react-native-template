@@ -14,7 +14,6 @@ import {OnboardingResources} from "~/common/ImageResources.g";
 import {CommonStyles} from "~/core/theme/commonStyles";
 import {useAppDispatch, useAppSelector} from "~/core/store/store";
 import {ButtonType, IOnboardingButton, IOnboardingData} from "~/types";
-import {useHideSplash} from "../splash/useHideSplash";
 import {navigation} from "~/services";
 import {Brand, Regular} from "~/infrastructure";
 import {SystemActions} from "~/core/store/system/systemSlice";
@@ -25,13 +24,10 @@ export const Onboarding: NavigationFunctionComponent = () => {
   const [activeSlide, setActiveSlide] = useState<number>(0);
   // const [messagingStatus, setMessagingStatus] = useState<number>(0);
   const [carouselData, setCarouselData] = useState<IOnboardingData[]>([]);
-  const [appTheme, deviceTheme] = useAppSelector(state => [
-    state.system.appTheme,
-    state.system.deviceTheme,
-  ]);
+  const [appTheme, deviceTheme] = useAppSelector((state) => [state.system.appTheme, state.system.deviceTheme]);
 
   const dispatch = useAppDispatch();
-  useHideSplash();
+  // useHideSplash();
 
   useMount(() => {
     setTimeout(() => dispatch(SystemActions.setIsOnboardingVisited(true)), 300);
@@ -40,47 +36,62 @@ export const Onboarding: NavigationFunctionComponent = () => {
   const {t} = useTranslation();
 
   useEffect(() => {
-    setCarouselData([{
-      header: t("onboarding.firstHeader"),
-      body: t("onboarding.firstBody"),
-      buttons: [{
-        type: ButtonType.solid,
-        text: t("common.continue"),
-        actionType: "continue",
-      }],
-    }, {
-      header: t("onboarding.secondHeader"),
-      body: t("onboarding.secondBody"),
-      buttons: [{
-        type: ButtonType.solid,
-        text: t("common.continue"),
-        actionType: "continue",
-      }],
-    }, {
-      header: t("onboarding.thirdHeader"),
-      body: t("onboarding.thirdBody"),
-      buttons: [{
-        type: ButtonType.solid,
-        text: t("onboarding.allowPush"),
-        actionType: "allowPush",
-      }, {
-        type: ButtonType.outline,
-        text: t("common.notNow"),
-        actionType: "continue",
-      }],
-    }, {
-      header: t("onboarding.forthHeader"),
-      body: t("onboarding.forthBody"),
-      buttons: [{
-        type: ButtonType.solid,
-        text: t("authentication.register"),
-        actionType: "register",
-      }, {
-        type: ButtonType.outline,
-        text: t("authentication.login"),
-        actionType: "login",
-      }],
-    }]);
+    setCarouselData([
+      {
+        header: t("onboarding.firstHeader"),
+        body: t("onboarding.firstBody"),
+        buttons: [
+          {
+            type: ButtonType.solid,
+            text: t("common.continue"),
+            actionType: "continue",
+          },
+        ],
+      },
+      {
+        header: t("onboarding.secondHeader"),
+        body: t("onboarding.secondBody"),
+        buttons: [
+          {
+            type: ButtonType.solid,
+            text: t("common.continue"),
+            actionType: "continue",
+          },
+        ],
+      },
+      {
+        header: t("onboarding.thirdHeader"),
+        body: t("onboarding.thirdBody"),
+        buttons: [
+          {
+            type: ButtonType.solid,
+            text: t("onboarding.allowPush"),
+            actionType: "allowPush",
+          },
+          {
+            type: ButtonType.outline,
+            text: t("common.notNow"),
+            actionType: "continue",
+          },
+        ],
+      },
+      {
+        header: t("onboarding.forthHeader"),
+        body: t("onboarding.forthBody"),
+        buttons: [
+          {
+            type: ButtonType.solid,
+            text: t("authentication.register"),
+            actionType: "register",
+          },
+          {
+            type: ButtonType.outline,
+            text: t("authentication.login"),
+            actionType: "login",
+          },
+        ],
+      },
+    ]);
   }, [t]);
 
   const onNextPress = useCallback(() => {
@@ -92,7 +103,7 @@ export const Onboarding: NavigationFunctionComponent = () => {
   const onLogin = useCallback(async () => {
     // analytics.logEvent("onboarding_login");
     await navigation.setRootAsync(getTabsRootLayout(appTheme || deviceTheme || "dark"));
-/*    await navigation.navigateWithoutTabsAsync(Pages.login, {
+    /*    await navigation.navigateWithoutTabsAsync(Pages.login, {
       params: {
         afterLoginCallback: () => navigation.updateOptions({bottomTabs: {currentTabId: Tabs.main.id}}),
       },
@@ -107,7 +118,7 @@ export const Onboarding: NavigationFunctionComponent = () => {
     //todo add navigation on signup and analytics
   }, [appTheme, deviceTheme]);
 
- /* const onMessagingStatus = useCallback((status: number) => {
+  /* const onMessagingStatus = useCallback((status: number) => {
     setMessagingStatus(status);
     if (status >= 1) {
       setCarouselData(data => {
@@ -152,7 +163,7 @@ export const Onboarding: NavigationFunctionComponent = () => {
 
   // useAppState({onForeground: checkPermissions});
 
- /* const onRequestNotifications = useCallback(() => {
+  /* const onRequestNotifications = useCallback(() => {
     if (messagingStatus == -1) {
       firebase.messaging().requestPermission()
         .then((value) => {
@@ -183,65 +194,71 @@ export const Onboarding: NavigationFunctionComponent = () => {
 
   }, [messagingStatus, onMessagingStatus, t]);*/
 
-  const renderButton = useCallback((button: IOnboardingButton) => {
-    let buttonStyle: ViewStyle;
-    let labelStyle: ViewStyle | undefined;
-    if (button.type == ButtonType.outline) {
-      buttonStyle = StyleSheet.flatten([styles.buttonStyle, styles.whiteButton]);
-      labelStyle = styles.whiteLabel;
-    } else {
-      buttonStyle = styles.buttonStyle;
-      labelStyle = undefined;
-    }
+  const renderButton = useCallback(
+    (button: IOnboardingButton) => {
+      let buttonStyle: ViewStyle;
+      let labelStyle: ViewStyle | undefined;
+      if (button.type == ButtonType.outline) {
+        buttonStyle = StyleSheet.flatten([styles.buttonStyle, styles.whiteButton]);
+        labelStyle = styles.whiteLabel;
+      } else {
+        buttonStyle = styles.buttonStyle;
+        labelStyle = undefined;
+      }
 
-    let handler;
-    switch (button.actionType) {
-      case "continue":
-        handler = onNextPress;
-        break;
-      case "allowPush":
-        handler = () => console.log('ALLOW PUSH');
-        break;
-      case "register":
-        handler = onRegistration;
-        break;
-      case "login":
-        handler = onLogin;
-        break;
-      default:
-        handler = undefined;
-    }
+      let handler;
+      switch (button.actionType) {
+        case "continue":
+          handler = onNextPress;
+          break;
+        case "allowPush":
+          handler = () => console.log("ALLOW PUSH");
+          break;
+        case "register":
+          handler = onRegistration;
+          break;
+        case "login":
+          handler = onLogin;
+          break;
+        default:
+          handler = undefined;
+      }
 
-    return (
-      <PrimaryButton
-        key={button.text}
-        type={button.type}
-        text={button.text}
-        labelStyle={labelStyle}
-        style={buttonStyle}
-        onPress={handler}
-      />
-    );
-  }, [onLogin, onNextPress, onRegistration]);
+      return (
+        <PrimaryButton
+          key={button.text}
+          type={button.type}
+          text={button.text}
+          labelStyle={labelStyle}
+          style={buttonStyle}
+          onPress={handler}
+        />
+      );
+    },
+    [onLogin, onNextPress, onRegistration],
+  );
 
-  const carouselItem = useCallback((baseData: {item: unknown; index: number; dataIndex: number}) => {
-    const item = baseData.item as IOnboardingData;
+  const carouselItem = useCallback(
+    (baseData: any) => {
+      const item = baseData.item as IOnboardingData;
 
-    return (
-      <ImageBackground
-        style={styles.itemContainer}
-        source={OnboardingResources[`onboarding_background_${baseData.index + 1}` as keyof OnboardingResources]}
-      >
-        <View style={styles.itemTextContainer}>
-          <Brand.H1 color={Colors.white} style={CommonStyles.noTextTransform}>{item.header}</Brand.H1>
-          <Regular.H1 color={Colors.white}>{item.body}</Regular.H1>
-          <View style={styles.buttonsContainer}>
-            {item.buttons.map(renderButton)}
+      return (
+        <ImageBackground
+          style={styles.itemContainer}
+          source={OnboardingResources[`onboarding_background_${baseData.index + 1}` as keyof OnboardingResources]}
+        >
+          <View style={styles.itemTextContainer}>
+            <Brand.H1 color={Colors.white} style={CommonStyles.noTextTransform}>
+              {item.header}
+            </Brand.H1>
+            <Regular.H1 color={Colors.white}>{item.body}</Regular.H1>
+            <View style={styles.buttonsContainer}>{item.buttons.map(renderButton)}</View>
           </View>
-        </View>
-      </ImageBackground>
-    );
-  }, [renderButton]);
+        </ImageBackground>
+      );
+    },
+    [renderButton],
+  );
 
   const onSkipOnboarding = useCallback(() => {
     // analytics.logEvent("skip_onboarding", {activeSlide: activeSlide + 1});
@@ -251,7 +268,7 @@ export const Onboarding: NavigationFunctionComponent = () => {
   return (
     <View style={CommonStyles.flex1}>
       <Carousel
-        ref={ref => carouselRef.current = ref}
+        ref={(ref) => (carouselRef.current = ref)}
         data={carouselData}
         renderItem={carouselItem}
         sliderWidth={windowWidth}
@@ -263,10 +280,7 @@ export const Onboarding: NavigationFunctionComponent = () => {
         vertical={false}
       />
       <SafeAreaView>
-        <OnboardingPagination
-          activeIndex={activeSlide} totalItems={carouselData.length}
-          onSkipPress={onSkipOnboarding}
-        />
+        <OnboardingPagination activeIndex={activeSlide} totalItems={carouselData.length} onSkipPress={onSkipOnboarding} />
       </SafeAreaView>
     </View>
   );

@@ -6,7 +6,7 @@ import {LoadingComponent} from "~/common/components/LoadingComponent";
 import {navigation} from "~/services";
 
 export const Splash: NavigationFunctionComponent = () => {
-  const [appTheme, deviceTheme, isOnboardingVisited] = useAppSelector(state => [
+  const [appTheme, deviceTheme, isOnboardingVisited] = useAppSelector((state) => [
     state.system.appTheme,
     state.system.deviceTheme,
     state.system.isOnboardingVisited,

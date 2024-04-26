@@ -1,18 +1,18 @@
 const rootImportOpts = {
   root: __dirname,
-  rootPathPrefix: '~/',
-  rootPathSuffix: './src/',
+  rootPathPrefix: "~/",
+  rootPathSuffix: "./src/",
   paths: [
     {
-      "rootPathPrefix": "~/",
-      "rootPathSuffix": "./src"
+      rootPathPrefix: "~/",
+      rootPathSuffix: "./src",
     },
-  ]
+  ],
 };
 
 module.exports = {
   presets: ["module:metro-react-native-babel-preset"],
-  plugins: [["babel-plugin-root-import", rootImportOpts]],
+  plugins: [["babel-plugin-root-import", rootImportOpts], "react-native-reanimated/plugin"],
   env: {
     test: {
       plugins: ["react-native-config-node/transform"],

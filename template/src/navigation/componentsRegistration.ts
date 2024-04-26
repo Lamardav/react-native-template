@@ -1,9 +1,7 @@
 import {Navigation, NavigationFunctionComponent} from "react-native-navigation";
 import {Pages} from "./pages";
-import {Main} from "~/modules/main/Main";
 import {Splash} from "~/modules/splash/Splash";
 import {ToastOverlay} from "~/common/components/ToastOverlay";
-import {DatePickerOverlay} from "~/common/components/DatePickerOverlay";
 import {Onboarding} from "~/modules/onboarding/Onboarding";
 import {Search} from "~/modules/search/Search";
 import {Settings} from "~/modules/settings/Settings";
@@ -14,9 +12,14 @@ import {gestureHandlerRootHOC} from "react-native-gesture-handler";
 import {Components} from "~/navigation/components";
 import {TopBarTitle} from "~/navigation/components/TopBarTitle";
 import {TopBarBackButton} from "~/navigation/components/TopBarBackButton";
+import {Main} from "~/modules/main/Main";
 
 function registerAppScreenComponent<P extends AppNavigationComponentProps>(props: NavigationHOCProps<P>) {
-  Navigation.registerComponent(props.page.name, () => NavigationHOC(props), () => props.Component);
+  Navigation.registerComponent(
+    props.page.name,
+    () => NavigationHOC(props),
+    () => props.Component,
+  );
 }
 
 const registerReduxComponent = (name: string, Component: NavigationFunctionComponent<any>) => {
@@ -38,5 +41,4 @@ export function registerComponents() {
 
   registerReduxComponent(Components.topBarTitle.name, TopBarTitle);
   registerReduxComponent(Components.topBarBackButton.name, TopBarBackButton);
-  registerReduxComponent(Pages.datePicker.name, DatePickerOverlay);
 }

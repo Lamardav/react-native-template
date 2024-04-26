@@ -1,8 +1,8 @@
 diff --git a/node_modules/react-native-device-detection/index.js b/node_modules/react-native-device-detection/index.js
-index ccf62a4..73a4221 100644
+index ccf62a4..48cacb8 100644
 --- a/node_modules/react-native-device-detection/index.js
 +++ b/node_modules/react-native-device-detection/index.js
-@@ -6,6 +6,24 @@ import React, {
+@@ -6,6 +6,32 @@ import React, {
  
  const windowSize = Dimensions.get('window');
  
@@ -22,12 +22,20 @@ index ccf62a4..73a4221 100644
 +  [390, 844], //iPhone 13	2021
 +  [390, 844], //iPhone 13 Pro	2021
 +  [428, 926], //iPhone 13 Pro Max	2021
++  [390, 844], //iPhone 14  2022
++  [428, 926], //iPhone 14 Plus 2022
++  [393, 852], //iPhone 14 Pro 2022
++  [430, 932], //iPhone 14 Pro Max 2022
++  [393, 852], //iPhone 15 2023
++  [430, 932], //iPhone 15 Plus 2023
++  [393, 852], //iPhone 15 Pro 2023
++  [430, 932], //iPhone 15 Pro Max 2023
 +];
 +
  class DetectDeviceService {
    constructor() {
      this.pixelDensity = PixelRatio.get();
-@@ -46,10 +64,8 @@ class DetectDeviceService {
+@@ -46,10 +72,8 @@ class DetectDeviceService {
  	 if( Platform.OS === 'ios' &&
        !Platform.isPad &&
        !Platform.isTVOS &&

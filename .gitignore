@@ -5,3 +5,4 @@ node_modules/
 /template/package-lock.json
 /template/ios/Podfile.lock
 **/customPackagerIp.txt
+/template/ios/Pods

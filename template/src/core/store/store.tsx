@@ -31,17 +31,13 @@ export const store = configureStore({
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: false,
-    }).concat(logger)
+    }).concat(logger),
 });
 
-export const persistor = persistStore(
-  store,
-  undefined,
-  async () => {
-    const state: RootState = store.getState();
-    await setLanguage(state.system.language);
-  }
-);
+export const persistor = persistStore(store, undefined, async () => {
+  const state: RootState = store.getState();
+  await setLanguage(state.system.language);
+});
 
 type AppDispatch = typeof store.dispatch;
 export type AppThunk = ThunkAction<void, RootState, unknown, Action<string>>;

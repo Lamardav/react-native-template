@@ -15,38 +15,22 @@ export const AppGradient = memo((props: IProps) => {
   const gradientWidth = width + 1;
   const themeColors = useThemeColors();
 
-  const getStops = useCallback(() => (
-    (stopsOverride || themeColors.linealBg).map((stopDsc, index) => (
-      <Stop
-        key={index.toString()}
-        offset={stopDsc.position}
-        stopColor={stopDsc.color}
-        stopOpacity={stopDsc.opacity}
-      />
-    ))
-  ), [stopsOverride, themeColors.linealBg]);
+  const getStops = useCallback(
+    () =>
+      (stopsOverride || themeColors.linealBg).map((stopDsc, index) => (
+        <Stop key={index.toString()} offset={stopDsc.position} stopColor={stopDsc.color} stopOpacity={stopDsc.opacity} />
+      )),
+    [stopsOverride, themeColors.linealBg],
+  );
 
   return (
-    <Svg
-      {...props}
-      width={gradientWidth}
-      style={[styles.gradient, {height: height}, style]}
-    >
+    <Svg {...props} width={gradientWidth} style={[styles.gradient, {height: height}, style]}>
       <Defs>
-        <LinearGradient
-          id={"grad"}
-          gradientUnits={"objectBoundingBox"}
-        >
+        <LinearGradient id={"grad"} gradientUnits={"objectBoundingBox"}>
           {getStops()}
         </LinearGradient>
       </Defs>
-      <Rect
-        transform={"rotate(90)"}
-        fill={"url(#grad)"}
-        width={height}
-        height={gradientWidth}
-        y={-gradientWidth}
-      />
+      <Rect transform={"rotate(90)"} fill={"url(#grad)"} width={height} height={gradientWidth} y={-gradientWidth} />
     </Svg>
   );
 });
@@ -58,4 +42,3 @@ const styles = StyleSheet.create({
     right: 0,
   } as ViewStyle,
 });
-

@@ -1,6 +1,6 @@
 import _ from "lodash";
-import moment from "moment";
-import { Logger, LogLevel } from "./types/logger";
+import dayjs from "dayjs";
+import {Logger, LogLevel} from "./types/logger";
 
 interface ISeqLoggerConfig {
   minLoggingLevel: LogLevel;
@@ -25,24 +25,25 @@ class SeqLogger implements Logger {
   }
 
   private flush(): void {
-    const stringLogEntries = this.logs.map(entry => JSON.stringify(entry));
+    const stringLogEntries = this.logs.map((entry) => JSON.stringify(entry));
     const payload = stringLogEntries.join("\n");
 
-    const logUrl = this.config.isFullUrl
-      ? this.config.url
-      : `${this.config.url}/api/events/raw?clef`;
+    const logUrl = this.config.isFullUrl ? this.config.url : `${this.config.url}/api/events/raw?clef`;
 
     fetch(
       logUrl,
-      Object.assign({
-        method: "POST",
-        body: payload,
-      }, {
-        headers: {
-          "Content-Type": "application/json",
-          "Accept": "*/*"
+      Object.assign(
+        {
+          method: "POST",
+          body: payload,
         },
-      }),
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "*/*",
+          },
+        },
+      ),
     )
       .then((r) => this.config.onFlushSuccess && this.config.onFlushSuccess(r))
       .catch((e) => this.config.onFlushError && this.config.onFlushError(e));
@@ -77,7 +78,7 @@ class SeqLogger implements Logger {
 
       const entry = Object.assign(
         {
-          "@t": moment().utc().format(),
+          "@t": dayjs().utc().format(),
           "@l": level,
           "@mt": message,
         },

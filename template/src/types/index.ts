@@ -1,7 +1,6 @@
 import {PressableProps, StyleProp, ViewStyle} from "react-native";
 import {RehydrateAction} from "redux-persist";
 import {RootState} from "~/core/store/rootReducer";
-import {TextInputMaskOptionProp, TextInputMaskTypeProp} from "react-native-masked-text";
 
 export interface ICalendarSpec {
   sameDay: string;
@@ -97,12 +96,6 @@ export enum ErrorRepresentationType {
 export interface IErrorResult {
   message: string;
   visualRepresentation: ErrorRepresentationType;
-}
-
-export interface ITextInputMask {
-  type: TextInputMaskTypeProp;
-  options?: TextInputMaskOptionProp;
-  maxLength?: number;
 }
 
 export interface ISize {
