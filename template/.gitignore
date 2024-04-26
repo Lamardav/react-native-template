@@ -24,7 +24,6 @@ ios/.xcode.env.local
 
 # Android/IntelliJ
 #
-build/
 .idea
 .gradle
 local.properties
@@ -58,6 +57,7 @@ yarn-error.log
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+ios/tmp.xcconfig
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*

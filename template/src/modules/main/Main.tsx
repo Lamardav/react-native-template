@@ -12,6 +12,8 @@ import {Button, SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorS
 import {Colors, DebugInstructions, Header, LearnMoreLinks, ReloadInstructions} from "react-native/Libraries/NewAppScreen";
 import Svg, {Ellipse} from "react-native-svg";
 import Animated, {useSharedValue} from "react-native-reanimated";
+import {Brand} from "~/infrastructure";
+import Config from "react-native-config";
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -59,6 +61,7 @@ export const Main = (): JSX.Element => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <CombinedEllipses />
+      <Brand.H1 color={Colors.white} text={Config.STAND} />
       <StatusBar barStyle={isDarkMode ? "light-content" : "dark-content"} backgroundColor={backgroundStyle.backgroundColor} />
       <View style={{alignItems: "center"}}>
         <Animated.View

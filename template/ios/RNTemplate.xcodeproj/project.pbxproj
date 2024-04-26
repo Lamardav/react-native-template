@@ -16,6 +16,9 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		91BF3D4F2BC498430094E6E3 /* SetIpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BF3D4B2BC498430094E6E3 /* SetIpView.m */; };
 		91BF3D502BC498430094E6E3 /* TestConfigurationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BF3D4E2BC498430094E6E3 /* TestConfigurationProvider.m */; };
+		91F66D1C2BDBFAA1004C87D3 /* InfoTest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F66D192BDBFAA1004C87D3 /* InfoTest.plist */; };
+		91F66D1D2BDBFAA1004C87D3 /* InfoStage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F66D1A2BDBFAA1004C87D3 /* InfoStage.plist */; };
+		91F66D1E2BDBFAA1004C87D3 /* InfoProduction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F66D1B2BDBFAA1004C87D3 /* InfoProduction.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,24 +35,55 @@
 		00E356EE1AD99517003FC87E /* RNTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTemplateTests.m; sourceTree = "<group>"; };
+		0A0BA1AF5CFC5F575C91B042 /* Pods-RNTemplate-RNTemplateTests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.release production.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.release production.xcconfig"; sourceTree = "<group>"; };
+		12A07768E35891D91ADFF4AC /* Pods-RNTemplate.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.release production.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.release production.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNTemplate/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNTemplate/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNTemplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNTemplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNTemplate/main.m; sourceTree = "<group>"; };
+		13B95BEABBE931CCA7345404 /* Pods-RNTemplate-RNTemplateTests.stage-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.stage-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.stage-release.xcconfig"; sourceTree = "<group>"; };
+		1403C90B8A4BE2E3715841CB /* Pods-RNTemplate-RNTemplateTests.test-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.test-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.test-release.xcconfig"; sourceTree = "<group>"; };
+		18CA842FEF12E6FA332E962B /* Pods-RNTemplate-RNTemplateTests.release test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.release test.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.release test.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-RNTemplate-RNTemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTemplate-RNTemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD8B2F6B6F4C5F31D3C9444 /* Pods-RNTemplate.stage-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.stage-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.stage-release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		43666F5711A5A17FCC79B366 /* Pods-RNTemplate.production-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.production-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.production-debug.xcconfig"; sourceTree = "<group>"; };
+		44260F7163859D64D5031D35 /* Pods-RNTemplate.debug test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.debug test.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.debug test.xcconfig"; sourceTree = "<group>"; };
+		48F4EAA0A2A5E7D9CFF10D9E /* Pods-RNTemplate.test-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.test-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.test-release.xcconfig"; sourceTree = "<group>"; };
+		51A0CCE46B6702578FC512BD /* Pods-RNTemplate-RNTemplateTests.debug production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.debug production.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.debug production.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.release.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CEAE5317D358A6CDF0CD70E /* Pods-RNTemplate-RNTemplateTests.test-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.test-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.test-debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F93A30280A00FE821DC0C93 /* Pods-RNTemplate.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.dev-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.dev-debug.xcconfig"; sourceTree = "<group>"; };
+		72979FBED7580C4F7D0E65D3 /* Pods-RNTemplate-RNTemplateTests.production-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.production-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.production-release.xcconfig"; sourceTree = "<group>"; };
+		73D43BF43EAD7B6F0C18A031 /* Pods-RNTemplate.debug production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.debug production.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.debug production.xcconfig"; sourceTree = "<group>"; };
+		73F1579B9A0B4EE603CBBC78 /* Pods-RNTemplate-RNTemplateTests.debug stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.debug stage.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.debug stage.xcconfig"; sourceTree = "<group>"; };
+		7430CE8EE2268F2629158341 /* Pods-RNTemplate.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.dev-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.dev-release.xcconfig"; sourceTree = "<group>"; };
+		7EB6E20168C6883C176A75AF /* Pods-RNTemplate.release test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.release test.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.release test.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		9051D0EA9F1BFDAB620402B5 /* Pods-RNTemplate.debug stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.debug stage.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.debug stage.xcconfig"; sourceTree = "<group>"; };
 		91BF3D4B2BC498430094E6E3 /* SetIpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetIpView.m; path = RNTemplate/TestConfiguration/SetIpView.m; sourceTree = "<group>"; };
 		91BF3D4C2BC498430094E6E3 /* TestConfigurationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestConfigurationProvider.h; path = RNTemplate/TestConfiguration/TestConfigurationProvider.h; sourceTree = "<group>"; };
 		91BF3D4D2BC498430094E6E3 /* SetIpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetIpView.h; path = RNTemplate/TestConfiguration/SetIpView.h; sourceTree = "<group>"; };
 		91BF3D4E2BC498430094E6E3 /* TestConfigurationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestConfigurationProvider.m; path = RNTemplate/TestConfiguration/TestConfigurationProvider.m; sourceTree = "<group>"; };
+		91F66D192BDBFAA1004C87D3 /* InfoTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoTest.plist; path = RNTemplate/InfoTest.plist; sourceTree = "<group>"; };
+		91F66D1A2BDBFAA1004C87D3 /* InfoStage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoStage.plist; path = RNTemplate/InfoStage.plist; sourceTree = "<group>"; };
+		91F66D1B2BDBFAA1004C87D3 /* InfoProduction.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoProduction.plist; path = RNTemplate/InfoProduction.plist; sourceTree = "<group>"; };
+		96C4E63ABCD1722BC9D25938 /* Pods-RNTemplate-RNTemplateTests.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.dev-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.dev-release.xcconfig"; sourceTree = "<group>"; };
+		9900192E5035350CBD5DCD76 /* Pods-RNTemplate-RNTemplateTests.stage-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.stage-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.stage-debug.xcconfig"; sourceTree = "<group>"; };
+		9FB4A33EA753FE99EC5C3992 /* Pods-RNTemplate-RNTemplateTests.debug test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.debug test.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.debug test.xcconfig"; sourceTree = "<group>"; };
+		A0A00A157BF351DD5BBAAD08 /* Pods-RNTemplate.test-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.test-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.test-debug.xcconfig"; sourceTree = "<group>"; };
+		AACADCE7C379C5DE06DECD3A /* Pods-RNTemplate.stage-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.stage-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.stage-debug.xcconfig"; sourceTree = "<group>"; };
+		D1C46FC1D204BAD76498B794 /* Pods-RNTemplate.production-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.production-release.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.production-release.xcconfig"; sourceTree = "<group>"; };
+		D6360F47A40DCFB79653E2C7 /* Pods-RNTemplate-RNTemplateTests.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.dev-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.dev-debug.xcconfig"; sourceTree = "<group>"; };
+		D69FDE4109F772FD159916FD /* Pods-RNTemplate-RNTemplateTests.production-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.production-debug.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.production-debug.xcconfig"; sourceTree = "<group>"; };
+		E37AAE041EFBDC89596BAA49 /* Pods-RNTemplate-RNTemplateTests.release stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate-RNTemplateTests.release stage.xcconfig"; path = "Target Support Files/Pods-RNTemplate-RNTemplateTests/Pods-RNTemplate-RNTemplateTests.release stage.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE3B56428ED4CEB607DFAC22 /* Pods-RNTemplate.release stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTemplate.release stage.xcconfig"; path = "Target Support Files/Pods-RNTemplate/Pods-RNTemplate.release stage.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +127,13 @@
 			isa = PBXGroup;
 			children = (
 				91BF3D442BC495560094E6E3 /* TestConfiguration */,
+				91F66D1B2BDBFAA1004C87D3 /* InfoProduction.plist */,
+				91F66D1A2BDBFAA1004C87D3 /* InfoStage.plist */,
+				91F66D192BDBFAA1004C87D3 /* InfoTest.plist */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -162,6 +199,34 @@
 				5709B34CF0A7D63546082F79 /* Pods-RNTemplate.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */,
+				A0A00A157BF351DD5BBAAD08 /* Pods-RNTemplate.test-debug.xcconfig */,
+				6F93A30280A00FE821DC0C93 /* Pods-RNTemplate.dev-debug.xcconfig */,
+				43666F5711A5A17FCC79B366 /* Pods-RNTemplate.production-debug.xcconfig */,
+				AACADCE7C379C5DE06DECD3A /* Pods-RNTemplate.stage-debug.xcconfig */,
+				48F4EAA0A2A5E7D9CFF10D9E /* Pods-RNTemplate.test-release.xcconfig */,
+				2AD8B2F6B6F4C5F31D3C9444 /* Pods-RNTemplate.stage-release.xcconfig */,
+				D1C46FC1D204BAD76498B794 /* Pods-RNTemplate.production-release.xcconfig */,
+				7430CE8EE2268F2629158341 /* Pods-RNTemplate.dev-release.xcconfig */,
+				5CEAE5317D358A6CDF0CD70E /* Pods-RNTemplate-RNTemplateTests.test-debug.xcconfig */,
+				D6360F47A40DCFB79653E2C7 /* Pods-RNTemplate-RNTemplateTests.dev-debug.xcconfig */,
+				D69FDE4109F772FD159916FD /* Pods-RNTemplate-RNTemplateTests.production-debug.xcconfig */,
+				9900192E5035350CBD5DCD76 /* Pods-RNTemplate-RNTemplateTests.stage-debug.xcconfig */,
+				1403C90B8A4BE2E3715841CB /* Pods-RNTemplate-RNTemplateTests.test-release.xcconfig */,
+				13B95BEABBE931CCA7345404 /* Pods-RNTemplate-RNTemplateTests.stage-release.xcconfig */,
+				72979FBED7580C4F7D0E65D3 /* Pods-RNTemplate-RNTemplateTests.production-release.xcconfig */,
+				96C4E63ABCD1722BC9D25938 /* Pods-RNTemplate-RNTemplateTests.dev-release.xcconfig */,
+				44260F7163859D64D5031D35 /* Pods-RNTemplate.debug test.xcconfig */,
+				73D43BF43EAD7B6F0C18A031 /* Pods-RNTemplate.debug production.xcconfig */,
+				9051D0EA9F1BFDAB620402B5 /* Pods-RNTemplate.debug stage.xcconfig */,
+				7EB6E20168C6883C176A75AF /* Pods-RNTemplate.release test.xcconfig */,
+				EE3B56428ED4CEB607DFAC22 /* Pods-RNTemplate.release stage.xcconfig */,
+				12A07768E35891D91ADFF4AC /* Pods-RNTemplate.release production.xcconfig */,
+				9FB4A33EA753FE99EC5C3992 /* Pods-RNTemplate-RNTemplateTests.debug test.xcconfig */,
+				51A0CCE46B6702578FC512BD /* Pods-RNTemplate-RNTemplateTests.debug production.xcconfig */,
+				73F1579B9A0B4EE603CBBC78 /* Pods-RNTemplate-RNTemplateTests.debug stage.xcconfig */,
+				18CA842FEF12E6FA332E962B /* Pods-RNTemplate-RNTemplateTests.release test.xcconfig */,
+				E37AAE041EFBDC89596BAA49 /* Pods-RNTemplate-RNTemplateTests.release stage.xcconfig */,
+				0A0BA1AF5CFC5F575C91B042 /* Pods-RNTemplate-RNTemplateTests.release production.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -260,6 +325,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F66D1C2BDBFAA1004C87D3 /* InfoTest.plist in Resources */,
+				91F66D1D2BDBFAA1004C87D3 /* InfoStage.plist in Resources */,
+				91F66D1E2BDBFAA1004C87D3 /* InfoProduction.plist in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -448,9 +516,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Test-Debug */ = {
+		00E356F61AD99517003FC87E /* Debug Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 9FB4A33EA753FE99EC5C3992 /* Pods-RNTemplate-RNTemplateTests.debug test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -473,11 +541,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Test-Debug";
+			name = "Debug Test";
 		};
-		00E356F71AD99517003FC87E /* Test-Release */ = {
+		00E356F71AD99517003FC87E /* Release Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 18CA842FEF12E6FA332E962B /* Pods-RNTemplate-RNTemplateTests.release test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -497,11 +565,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Test-Release";
+			name = "Release Test";
 		};
-		13B07F941A680F5B00A75B9A /* Test-Debug */ = {
+		13B07F941A680F5B00A75B9A /* Debug Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNTemplate.debug.xcconfig */;
+			baseConfigurationReference = 44260F7163859D64D5031D35 /* Pods-RNTemplate.debug test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -526,11 +594,11 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Test-Debug";
+			name = "Debug Test";
 		};
-		13B07F951A680F5B00A75B9A /* Test-Release */ = {
+		13B07F951A680F5B00A75B9A /* Release Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNTemplate.release.xcconfig */;
+			baseConfigurationReference = 7EB6E20168C6883C176A75AF /* Pods-RNTemplate.release test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -552,9 +620,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Test-Release";
+			name = "Release Test";
 		};
-		83CBBA201A601CBA00E9B192 /* Test-Debug */ = {
+		83CBBA201A601CBA00E9B192 /* Debug Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -628,9 +696,9 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
-			name = "Test-Debug";
+			name = "Debug Test";
 		};
-		83CBBA211A601CBA00E9B192 /* Test-Release */ = {
+		83CBBA211A601CBA00E9B192 /* Release Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -700,9 +768,9 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Test-Release";
+			name = "Release Test";
 		};
-		91F66D072BDBCD0E004C87D3 /* Stage-Debug */ = {
+		91F66D072BDBCD0E004C87D3 /* Debug Stage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -776,11 +844,11 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
-			name = "Stage-Debug";
+			name = "Debug Stage";
 		};
-		91F66D082BDBCD0E004C87D3 /* Stage-Debug */ = {
+		91F66D082BDBCD0E004C87D3 /* Debug Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNTemplate.debug.xcconfig */;
+			baseConfigurationReference = 9051D0EA9F1BFDAB620402B5 /* Pods-RNTemplate.debug stage.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -805,11 +873,11 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Stage-Debug";
+			name = "Debug Stage";
 		};
-		91F66D092BDBCD0E004C87D3 /* Stage-Debug */ = {
+		91F66D092BDBCD0E004C87D3 /* Debug Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 73F1579B9A0B4EE603CBBC78 /* Pods-RNTemplate-RNTemplateTests.debug stage.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -832,9 +900,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Stage-Debug";
+			name = "Debug Stage";
 		};
-		91F66D0A2BDBCD1D004C87D3 /* Stage-Release */ = {
+		91F66D0A2BDBCD1D004C87D3 /* Release Stage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -904,11 +972,11 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Stage-Release";
+			name = "Release Stage";
 		};
-		91F66D0B2BDBCD1D004C87D3 /* Stage-Release */ = {
+		91F66D0B2BDBCD1D004C87D3 /* Release Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNTemplate.release.xcconfig */;
+			baseConfigurationReference = EE3B56428ED4CEB607DFAC22 /* Pods-RNTemplate.release stage.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -930,11 +998,11 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Stage-Release";
+			name = "Release Stage";
 		};
-		91F66D0C2BDBCD1D004C87D3 /* Stage-Release */ = {
+		91F66D0C2BDBCD1D004C87D3 /* Release Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */;
+			baseConfigurationReference = E37AAE041EFBDC89596BAA49 /* Pods-RNTemplate-RNTemplateTests.release stage.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -954,9 +1022,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Stage-Release";
+			name = "Release Stage";
 		};
-		91F66D0D2BDBCD52004C87D3 /* Production-Debug */ = {
+		91F66D0D2BDBCD52004C87D3 /* Debug Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1030,11 +1098,11 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
-			name = "Production-Debug";
+			name = "Debug Production";
 		};
-		91F66D0E2BDBCD52004C87D3 /* Production-Debug */ = {
+		91F66D0E2BDBCD52004C87D3 /* Debug Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNTemplate.debug.xcconfig */;
+			baseConfigurationReference = 73D43BF43EAD7B6F0C18A031 /* Pods-RNTemplate.debug production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1053,17 +1121,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rntemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rntemplate.prod;
 				PRODUCT_NAME = RNTemplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Production-Debug";
+			name = "Debug Production";
 		};
-		91F66D0F2BDBCD52004C87D3 /* Production-Debug */ = {
+		91F66D0F2BDBCD52004C87D3 /* Debug Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = 51A0CCE46B6702578FC512BD /* Pods-RNTemplate-RNTemplateTests.debug production.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1086,9 +1154,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Production-Debug";
+			name = "Debug Production";
 		};
-		91F66D102BDBCD5C004C87D3 /* Production-Release */ = {
+		91F66D102BDBCD5C004C87D3 /* Release Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1158,11 +1226,11 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Production-Release";
+			name = "Release Production";
 		};
-		91F66D112BDBCD5C004C87D3 /* Production-Release */ = {
+		91F66D112BDBCD5C004C87D3 /* Release Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNTemplate.release.xcconfig */;
+			baseConfigurationReference = 12A07768E35891D91ADFF4AC /* Pods-RNTemplate.release production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1179,16 +1247,16 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rntemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rntemplate.prod;
 				PRODUCT_NAME = RNTemplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Production-Release";
+			name = "Release Production";
 		};
-		91F66D122BDBCD5C004C87D3 /* Production-Release */ = {
+		91F66D122BDBCD5C004C87D3 /* Release Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 0A0BA1AF5CFC5F575C91B042 /* Pods-RNTemplate-RNTemplateTests.release production.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1208,9 +1276,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Production-Release";
+			name = "Release Production";
 		};
-		91F66D132BDBCD67004C87D3 /* Dev-Debug */ = {
+		91F66D132BDBCD67004C87D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1284,9 +1352,9 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
-			name = "Dev-Debug";
+			name = Debug;
 		};
-		91F66D142BDBCD67004C87D3 /* Dev-Debug */ = {
+		91F66D142BDBCD67004C87D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNTemplate.debug.xcconfig */;
 			buildSettings = {
@@ -1313,9 +1381,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Dev-Debug";
+			name = Debug;
 		};
-		91F66D152BDBCD67004C87D3 /* Dev-Debug */ = {
+		91F66D152BDBCD67004C87D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-RNTemplate-RNTemplateTests.debug.xcconfig */;
 			buildSettings = {
@@ -1340,9 +1408,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Dev-Debug";
+			name = Debug;
 		};
-		91F66D162BDBCD7C004C87D3 /* Dev-Release */ = {
+		91F66D162BDBCD7C004C87D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1412,9 +1480,9 @@
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Dev-Release";
+			name = Release;
 		};
-		91F66D172BDBCD7C004C87D3 /* Dev-Release */ = {
+		91F66D172BDBCD7C004C87D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNTemplate.release.xcconfig */;
 			buildSettings = {
@@ -1438,9 +1506,9 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = "Dev-Release";
+			name = Release;
 		};
-		91F66D182BDBCD7C004C87D3 /* Dev-Release */ = {
+		91F66D182BDBCD7C004C87D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-RNTemplate-RNTemplateTests.release.xcconfig */;
 			buildSettings = {
@@ -1462,7 +1530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTemplate.app/RNTemplate";
 			};
-			name = "Dev-Release";
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1470,47 +1538,47 @@
 		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNTemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Test-Debug */,
-				91F66D152BDBCD67004C87D3 /* Dev-Debug */,
-				91F66D0F2BDBCD52004C87D3 /* Production-Debug */,
-				91F66D092BDBCD0E004C87D3 /* Stage-Debug */,
-				00E356F71AD99517003FC87E /* Test-Release */,
-				91F66D0C2BDBCD1D004C87D3 /* Stage-Release */,
-				91F66D122BDBCD5C004C87D3 /* Production-Release */,
-				91F66D182BDBCD7C004C87D3 /* Dev-Release */,
+				00E356F61AD99517003FC87E /* Debug Test */,
+				91F66D152BDBCD67004C87D3 /* Debug */,
+				91F66D0F2BDBCD52004C87D3 /* Debug Production */,
+				91F66D092BDBCD0E004C87D3 /* Debug Stage */,
+				00E356F71AD99517003FC87E /* Release Test */,
+				91F66D0C2BDBCD1D004C87D3 /* Release Stage */,
+				91F66D122BDBCD5C004C87D3 /* Release Production */,
+				91F66D182BDBCD7C004C87D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Test-Release";
+			defaultConfigurationName = Release;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Test-Debug */,
-				91F66D142BDBCD67004C87D3 /* Dev-Debug */,
-				91F66D0E2BDBCD52004C87D3 /* Production-Debug */,
-				91F66D082BDBCD0E004C87D3 /* Stage-Debug */,
-				13B07F951A680F5B00A75B9A /* Test-Release */,
-				91F66D0B2BDBCD1D004C87D3 /* Stage-Release */,
-				91F66D112BDBCD5C004C87D3 /* Production-Release */,
-				91F66D172BDBCD7C004C87D3 /* Dev-Release */,
+				13B07F941A680F5B00A75B9A /* Debug Test */,
+				91F66D142BDBCD67004C87D3 /* Debug */,
+				91F66D0E2BDBCD52004C87D3 /* Debug Production */,
+				91F66D082BDBCD0E004C87D3 /* Debug Stage */,
+				13B07F951A680F5B00A75B9A /* Release Test */,
+				91F66D0B2BDBCD1D004C87D3 /* Release Stage */,
+				91F66D112BDBCD5C004C87D3 /* Release Production */,
+				91F66D172BDBCD7C004C87D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Test-Release";
+			defaultConfigurationName = Release;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CBBA201A601CBA00E9B192 /* Test-Debug */,
-				91F66D132BDBCD67004C87D3 /* Dev-Debug */,
-				91F66D0D2BDBCD52004C87D3 /* Production-Debug */,
-				91F66D072BDBCD0E004C87D3 /* Stage-Debug */,
-				83CBBA211A601CBA00E9B192 /* Test-Release */,
-				91F66D0A2BDBCD1D004C87D3 /* Stage-Release */,
-				91F66D102BDBCD5C004C87D3 /* Production-Release */,
-				91F66D162BDBCD7C004C87D3 /* Dev-Release */,
+				83CBBA201A601CBA00E9B192 /* Debug Test */,
+				91F66D132BDBCD67004C87D3 /* Debug */,
+				91F66D0D2BDBCD52004C87D3 /* Debug Production */,
+				91F66D072BDBCD0E004C87D3 /* Debug Stage */,
+				83CBBA211A601CBA00E9B192 /* Release Test */,
+				91F66D0A2BDBCD1D004C87D3 /* Release Stage */,
+				91F66D102BDBCD5C004C87D3 /* Release Production */,
+				91F66D162BDBCD7C004C87D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Test-Release";
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

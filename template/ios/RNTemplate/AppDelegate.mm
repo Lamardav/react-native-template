@@ -35,6 +35,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  /**
+   * Hardcode locks portrait orientation (uses react-native-orientation-locker library)
+   */
   [Orientation setOrientation:(UIInterfaceOrientationMask)UIInterfaceOrientationMaskPortrait];
 
   /**

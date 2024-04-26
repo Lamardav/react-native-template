@@ -6,3 +6,4 @@ node_modules/
 /template/ios/Podfile.lock
 **/customPackagerIp.txt
 /template/ios/Pods
+/template/ios/tmp.xcconfig
