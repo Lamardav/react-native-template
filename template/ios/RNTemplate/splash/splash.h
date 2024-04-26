@@ -3,6 +3,6 @@
 
 @interface Splash : NSObject <RCTBridgeModule>
 
-+ (void)show:(RCTBridge*) bridge;
++ (void)showWithGreetings:(RCTBridge*) bridge;
 
 @end
